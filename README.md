@@ -7,13 +7,15 @@ and can be used by business or analytics team to understand the immigration tren
 **Examples of data exploration scenarios/queries would be:**
 
 -	Yearly/Quarterly/Monthly visitor arrival count based on Country Of Residence
-                     Ex: Top 10 visitor country
+    
+     Ex: Top 10 visitor country
 
 -	Yearly/Quarterly/Monthly arrival count based on Port Of Entry
-                      Ex: Top 10 ports
+    
+     Ex: Top 10 ports
 
 -	End user can also explore the data to find out the trend. What is the number of visitors 
-                     this year compared to last year? What is the monthly trend? What is the percentage variance ? 
+    this year compared to last year? What is the monthly trend? What is the percentage variance ? 
 
 -	We can also explore the city demography aggregated at state level.
 
@@ -121,9 +123,9 @@ For ex, if we want to know more details about the top 10 immigrant states, these
 
  ## Files included
  
- - etl.py - pipeline to read data from HDFS, process and storedata in S3 in parquet format
+ - etl.py - pipeline to read data from HDFS, process and store data in S3 in parquet format
 
- Notebooks shows how the data is vbalidated after load and explored to get reports:
+ Notebooks shows how the data is validated after the load and explored to get reports:
  
      - Analyze Visitors By Country.ipynb
      - Analyze Visitors By Port.ipynb
