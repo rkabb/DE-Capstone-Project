@@ -65,6 +65,7 @@ Immigration data is partitioned at Year, Month level.
 Etl.py is a module which does the data movement.  There is a EMR cluster set up on AWS. Etl.py will run on this cluster.
 
 We can set up data pipeline using airflow. This would help us to run the ETL pipeline on a regular schedule , say, once a month or once a day.
+We can also add, data validation tasks in airflow DAG to ensure data load validity.
 
 Currently, with this design, data is stored inS3 in parquet format and it should support fair amount of users.
 If the user base increased, then we can store the data in DWH, such as RedShift to support more users.
