@@ -80,47 +80,44 @@ For ex, if we want to know more details about the top 10 immigrant states, these
 
 - Visitors_per_country:
 
-
-     |-- county: string 
-     |-- visitors: long
-     |-- year: integer 
-     |-- month: integer 
+         |-- county: string 
+         |-- visitors: long
+         |-- year: integer 
+         |-- month: integer 
 
 - Visitors_per_ports:
 
 
-     |-- port: string  
-     |-- visitors: long  
-     |-- year: integer  
-     |-- month: integer  
+         |-- port: string  
+         |-- visitors: long  
+         |-- year: integer  
+         |-- month: integer  
 
 
 - Visitors_per_state: 
 
-
-     |-- state: string 
-     |-- visitors: long 
-     |-- year: integer 
-     |-- month: integer
+         |-- state: string 
+         |-- visitors: long 
+         |-- year: integer 
+         |-- month: integer
 
 
 - Demography_By_State:
 
-     
-     |-- state: string 
-     |-- code: string 
-     |-- age: string 
-     |-- Males: string 
-     |-- females: string 
-     |-- tot_Pop: string 
-     |-- Veterans: string 
-     |-- Foreign: string
-     |-- Household: string 
-     |-- Hispanic: string 
-     |-- Asian: string 
-     |-- White: string 
-     |-- Black: string 
-     |-- Native: string 
+         |-- state: string 
+         |-- code: string 
+         |-- age: string 
+         |-- Males: string 
+         |-- females: string 
+         |-- tot_Pop: string 
+         |-- Veterans: string 
+         |-- Foreign: string
+         |-- Household: string 
+         |-- Hispanic: string 
+         |-- Asian: string 
+         |-- White: string 
+         |-- Black: string 
+         |-- Native: string 
 
  ## Files included
  
